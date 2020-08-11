@@ -1,0 +1,21 @@
+{
+  "name": "alerta-bot",
+  "version": "1.0.0",
+  "description": "Em conjunto com uma placa Arduino, um bot de telegram é capaz de enviar um alerta assim que o estado de um pino for LOW",
+  "main": "src/arduino.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isaacmsl/alerta-bot.git"
+  },
+  "keywords": [],
+  "author": "Isaac Lourenco <isaacmarlondasilvalourenco@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "johnny-five": "^2.0.0",
+    "telegram-bot-api": "^2.0.1"
+  }
+}
